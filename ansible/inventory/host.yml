@@ -1,8 +1,8 @@
-  localhost ansible_connection=local
+localhost ansible_connection=local
 
-    [Server]
-    localhost
+[Server]
+localhost
 
-    [Server:vars]
-    ansible_python_interpreter = /usr/bin/python3
-    ansi_user= linux2
+[Server:vars]
+ansible_python_interpreter = /usr/bin/python3
+ansi_user= linux2
