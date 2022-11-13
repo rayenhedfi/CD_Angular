@@ -1,5 +1,5 @@
 ---
-# tasks file for docker-registry.
+# tasks file for docker-registry
 - name: Log into DockerHub
   docker_login:
     username: rayen91130
