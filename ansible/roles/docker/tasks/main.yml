@@ -4,7 +4,7 @@
   docker_image:
     name: rayen91130/devops:latest
     build:
-      path: /var/lib/jenkins/workspace/devops
+      path: /var/lib/jenkins/workspace/CD-PROJECT
       pull: no
     source: build
     state: present
